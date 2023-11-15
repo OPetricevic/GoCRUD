@@ -6,3 +6,6 @@ run:
 
 test: 
 	@go test -v ./...
+
+remove:
+	@rm bin/gobank
